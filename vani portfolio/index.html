@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="name-logo">
+        <p class="keerti">Vani Pyati</p>
+      </div>
+      <div>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a href="#home" class="main-nav-link home-btn">Home</a></li>
+            <li><a href="#interests" class="main-nav-link">About</a></li>
+            <li><a href="#skills" class="main-nav-link">Skills</a></li>
+            <li><a href="#contact" class="main-nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="section-1" id="home">
+      <div class="container">
+        <img src="vani.jpeg" alt="image" class="my-image" />
+        <div class="hi-there">
+          <h1 class="hi-there-h1">Hello</h1>
+          <p class="hi-there-p">
+            I am a highly creative individual with a strong work ethic. My
+            passion for problem-solving and innovative thinking, combined with
+            my determination and hard-working nature, make me an asset to any
+            team. I am constantly pushing myself to produce the best results and
+            never settle for mediocrity.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="my-interest" id="interests">
+      <div class="interest">
+        <div class="interest--text">
+          <h2 class="i-h2">More About Me</h2>
+          <p class="interest--p">
+            Hi, my name is Vani Pyati and I am a computer science student at KLS
+            Gogte Institute of Technology. I did my schooling from BS Sheshgiri
+            english medium high school and PUC from Vidyaniketam Hubli. I have a
+            strong foundation in HTML, CSS, and Java, and I am constantly
+            seeking new opportunities to further develop my skills in these
+            areas. I believe that my technical abilities, combined with my
+            passion for technology, make me a valuable asset to any team.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="skills">
+      <h1 class="i-h2 my-skills-h1">My Skills</h1>
+      <div class="skill-cards">
+        <div class="skill-card">
+          <div class="skill-logo">
+            <img class="ele-logo" src="html5-logo.png" alt="html logo" />
+          </div>
+          <h2 class="skills-heading">HTML</h2>
+          <p>
+            I have expertise in HTML and can create responsive and dynamic
+            websites using HTML5 tags.
+          </p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-logo">
+            <img class="ele-logo" src="css3-logo.png" alt="html logo" />
+
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <h2 class="skills-heading">CSS</h2>
+          <p>
+            I have good knowledge in CSS and can create beautiful and modern
+            looking websites with it.
+          </p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-logo">
+            <img class="ele-logo" src="java-logo.png" alt="java logo" />
+          </div>
+          <h2 class="skills-heading">Java</h2>
+          <p>
+            I have experience in Java and can create interactive and dynamic
+            applications with it.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div>
+        <h2 class="contact-h2 i-h2">Contact Me</h2>
+        <form class="form-d" method="post" name="contact" netlify>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-links">
+        <a class="link-items" href="#"
+          ><ion-icon class="icon" name="logo-linkedin"></ion-icon> Linkedin</a
+        >
+        <a class="link-items" href="#"
+          ><ion-icon name="logo-twitter"></ion-icon> Twitter</a
+        >
+        <a class="link-items" href="#"
+          ><ion-icon name="logo-github"></ion-icon> Github</a
+        >
+      </div>
+      <p class="footer-p">
+        Copyright © 2020 Sebastian Petravic. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
